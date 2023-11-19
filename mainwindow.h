@@ -4,11 +4,12 @@
 #include <QMainWindow>
 #include <QMenuBar>
 #include <QStatusBar>
+#include <QString>
 #include "tabwidget.h"
 
-class MainWindow : public QMainWindow
-{
-    Q_OBJECT
+const QString version = "0.0.1";
+
+class MainWindow : public QMainWindow{
 private:
     QMenuBar menu_bar;
     QStatusBar status_bar;
